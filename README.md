@@ -244,4 +244,4 @@ resource "aws_instance" "sql" {
 ### 9 Now, I  run my terraform code. For doing so, we first run the command terraform init. This will download the necessary plugins.
 
 ### Then, we run the command terraform apply --auto-approve.
-![Terraform Apply](TASK/Screenshot from 2020-08-17 13-43-07.png)
+![Terraform Apply](TASK3/Screenshot from 2020-08-17 13-43-07.png)
