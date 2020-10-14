@@ -244,4 +244,55 @@ resource "aws_instance" "sql" {
 ### 9 Now, I  run my terraform code. For doing so, we first run the command terraform init. This will download the necessary plugins.
 
 ### Then, we run the command terraform apply --auto-approve.
-![Terraform Apply](TASK3/Screenshot from 2020-08-17 13-43-07.png)
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-43-07.png)
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-42-48.png)
+
+
+
+
+### Now, we go to our AWS dashboard & see our Wordpress & MYSQL running in the EC2 section.
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-36-39.png)
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-36-52.png)
+
+
+### VPC
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-37-46.png)
+
+
+### private subnet for MySQl
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-37-58.png)
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-38-38.png)
+
+
+### public Subnet for WordPress
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-38-12.png)
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-38-27.png)
+
+
+### route table 
+
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-39-21.png)
+
+
+### Internet gateway
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-39-37.png)
+
+
+
+### security group for MySql
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-40-44.png)
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-41-17.png)
+
+
+### security group  for Wordpress
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-40-55.png)
+
+
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-41-28.png)
+
+
+
+### Site
+![Terraform Apply](https://github.com/vishnupal/Cloud_Task3/blob/main/TASK3/Screenshot%20from%202020-08-17%2013-36-05.png)
+
+
